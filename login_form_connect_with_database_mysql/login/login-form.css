@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.2%;
+}
+ .pic{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('pic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.header1{
+    position: absolute;
+width: 55%;
+height: 5%;
+margin-top: 1rem;
+margin-left: 22rem;
+display: flex;
+flex-direction: row;
+}
+.header1 .logo{
+    color: aliceblue;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+flex-direction: row;
+margin-left: 60%;
+margin-top: 1rem;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: aliceblue;
+    color: rgb(1, 1, 57);
+}
+
+.btn{
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.4rem;
+    width: 60px;
+    padding: 0.3rem 1rem;
+    margin-left: 60rem;
+    border: 2px solid rgba(206, 212, 216, 0.911);
+    cursor: pointer;
+}
+.header{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin: 20rem 28rem;
+    color: aliceblue;
+
+}
+  h1{
+ margin-top: 1rem;
+ margin-left: 1rem;
+ text-align: center;
+ color: aquamarine;
+}
+  p{
+ margin-top: 2rem;
+ margin-left: 1rem;
+ color: rgb(9, 9, 64);
+ font-weight: bold;
+ font-size: 110%;
+ line-height: 1.5rem;
+ text-align: center;
+}
+.btn2{
+    background-color: rgb(40, 8, 69);
+    color: aliceblue;
+    font-size: 1.4rem;
+    width: 115px;
+    padding: 0.5rem 1rem;
+    margin-left: 40%;
+    margin-top: 3rem;
+    box-shadow: 1px 1px 2px rgb(178, 185, 191);
+    cursor: pointer;
+}
+.form{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px rgb(54, 51, 51);
+    transform: translate(385%,-110%);
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+.form1{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px rgb(54, 51, 51);
+    transform: translate(385%,18%);
+    transition-property: all;
+    transition-duration: 0.5s;
+    z-index: 10px;
+}
+ .form  h2, .form1 h2{
+    font-size: 2rem;
+    color: aliceblue;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.form  .input, .form1 .input {
+width: 18.5rem;
+height: 1.8rem;
+color: rgb(7, 7, 70);
+font-size: 1rem;
+margin-top: 4rem;
+margin-left: 1.5rem;
+border: none;
+outline: none;
+}
+.form  .label, .form1 .label{
+    position: absolute;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+}
+.form  .checkbox , .form1 .checkbox{
+     margin-left: 1.5rem;
+     margin-top: 1.5rem;
+}
+.form  p, .form1 p{
+     color: aliceblue;
+     letter-spacing: 0.1rem;
+     font-size: 0.8rem;
+     margin-left: 0.5rem;
+     margin-top: 1.5rem;
+}
+.a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    padding: 0.8rem 3.5rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(2, 2, 34);
+    color: aliceblue;
+    font-size: 1rem;
+}
+.a:hover{
+    box-shadow: 0 0 5px aliceblue;
+}
+.head{
+    color: brown;
+    font-size: 80px;
+    margin: 200px 400px;
+}
